@@ -167,7 +167,7 @@
             this.Dodrukuj_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.Dodrukuj_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.Dodrukuj_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dodrukuj_Button.Location = new System.Drawing.Point(1149, 683);
+            this.Dodrukuj_Button.Location = new System.Drawing.Point(1149, 564);
             this.Dodrukuj_Button.Name = "Dodrukuj_Button";
             this.Dodrukuj_Button.Size = new System.Drawing.Size(94, 23);
             this.Dodrukuj_Button.TabIndex = 8;
@@ -182,7 +182,7 @@
             this.Koniec_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.Koniec_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.Koniec_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Koniec_Button.Location = new System.Drawing.Point(12, 683);
+            this.Koniec_Button.Location = new System.Drawing.Point(12, 564);
             this.Koniec_Button.Name = "Koniec_Button";
             this.Koniec_Button.Size = new System.Drawing.Size(94, 23);
             this.Koniec_Button.TabIndex = 9;
@@ -221,7 +221,7 @@
             this.MainGridView.Location = new System.Drawing.Point(12, 102);
             this.MainGridView.Name = "MainGridView";
             this.MainGridView.ReadOnly = true;
-            this.MainGridView.Size = new System.Drawing.Size(1228, 566);
+            this.MainGridView.Size = new System.Drawing.Size(1228, 456);
             this.MainGridView.TabIndex = 10;
             this.MainGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wybierzWiersz);
             this.MainGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wybierzWiersz);
@@ -399,7 +399,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1255, 718);
+            this.ClientSize = new System.Drawing.Size(1255, 596);
             this.Controls.Add(this.magazynCombo);
             this.Controls.Add(this.ZDnia_Button);
             this.Controls.Add(this.Magazyn_Button);
