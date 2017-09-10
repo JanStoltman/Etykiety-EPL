@@ -17,3 +17,23 @@ C:\Users\Jan\Desktop\Projekty c#\Donat Etykiety\Donat Etykiety\bin\Release\Entit
 C:\Users\Jan\Desktop\Projekty c#\Donat Etykiety\Donat Etykiety\bin\Release\EntityFramework.Firebird.pdb
 C:\Users\Jan\Desktop\Projekty c#\Donat Etykiety\Donat Etykiety\bin\Release\EntityFramework.SqlServer.xml
 C:\Users\Jan\Desktop\Projekty c#\Donat Etykiety\Donat Etykiety\bin\Release\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\Etykiety EPL.exe.config
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\Etykiety EPL.exe
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\Etykiety EPL.pdb
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.dll
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.Firebird.dll
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\FirebirdSql.Data.FirebirdClient.dll
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.xml
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.Firebird.pdb
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\bin\Release\FirebirdSql.Data.FirebirdClient.pdb
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Weryfikator wydania towaru.csprojResolveAssemblyReference.cache
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Etykiety_Epl.AskBox.resources
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Donat_Etykiety.DokumentyMagazynoweForm.resources
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Donat_Etykiety.MainMenu.resources
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Etykiety_Epl.Properties.Resources.resources
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Weryfikator wydania towaru.csproj.GenerateResource.Cache
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Weryfikator wydania towaru.csproj.CoreCompileInputs.cache
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Etykiety EPL.exe
+C:\Users\yggdr\Source\Repos\Etykiety-EPL\Donat Etykiety\obj\Release\Etykiety EPL.pdb

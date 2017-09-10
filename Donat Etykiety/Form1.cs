@@ -25,11 +25,28 @@ namespace Donat_Etykiety
         public MainMenu()
         {
             InitializeComponent();
+            readProperties();
             pobierzDane(MainGridView.Columns.Count, Settings.connectionString, Settings.commandString5, "1", "1", "DW");
             updateGridView(daneDokumentu);
 
             updateMagazynyCombo();
                
+        }
+
+        private void readProperties()
+        {
+            try
+            {
+                StreamReader streamReader = new StreamReader("properties.txt");
+                Settings.connectionString = "User=SYSDBA;Password=masterkey;Database=" + streamReader.ReadLine() + ";DataSource="+ streamReader.ReadLine() +";Port=3050;Dialect=3;Charset=NONE;Role=;Connection lifetime=15;Pooling=true;MinPoolSize=0;MaxPoolSize=50;Packet Size=8192;ServerType=0;";
+                Settings.copyFilePath = streamReader.ReadLine();
+                streamReader.Close();
+            }
+            catch (Exception)
+            {
+                Settings.connectionString = "User=SYSDBA;Password=masterkey;Database=C:\\Stream\\Firma1\\PCB\\baza\\Premium.fb;DataSource=localhost;Port=3050;Dialect=3;Charset=NONE;Role=;Connection lifetime=15;Pooling=true;MinPoolSize=0;MaxPoolSize=50;Packet Size=8192;ServerType=0;";
+                Settings.copyFilePath = "/C copy Etykiety.prn \\\\tsclient\\COM1";
+            }
         }
 
         //public void Inicjalizuj()
@@ -265,7 +282,7 @@ namespace Donat_Etykiety
         private void dodrukuj()
         {
             prepareFile();
-            Process.Start("cmd", "/C copy " + Settings.copyFilePath1 + " \\\\tsclient\\COM1");
+            Process.Start("cmd", Settings.copyFilePath);
             //Process.Start("cmd", "/C copy " + Settings.copyFilePath1 + " lpt1");
         }
 

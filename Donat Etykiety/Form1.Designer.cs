@@ -152,7 +152,7 @@
             this.PokazNiewydrukowane_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.PokazNiewydrukowane_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.PokazNiewydrukowane_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.PokazNiewydrukowane_Button.Location = new System.Drawing.Point(1119, 73);
+            this.PokazNiewydrukowane_Button.Location = new System.Drawing.Point(1078, 73);
             this.PokazNiewydrukowane_Button.Name = "PokazNiewydrukowane_Button";
             this.PokazNiewydrukowane_Button.Size = new System.Drawing.Size(162, 23);
             this.PokazNiewydrukowane_Button.TabIndex = 7;
@@ -167,7 +167,7 @@
             this.Dodrukuj_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.Dodrukuj_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.Dodrukuj_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Dodrukuj_Button.Location = new System.Drawing.Point(1178, 772);
+            this.Dodrukuj_Button.Location = new System.Drawing.Point(1149, 683);
             this.Dodrukuj_Button.Name = "Dodrukuj_Button";
             this.Dodrukuj_Button.Size = new System.Drawing.Size(94, 23);
             this.Dodrukuj_Button.TabIndex = 8;
@@ -182,7 +182,7 @@
             this.Koniec_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.Koniec_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.Koniec_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Koniec_Button.Location = new System.Drawing.Point(12, 772);
+            this.Koniec_Button.Location = new System.Drawing.Point(12, 683);
             this.Koniec_Button.Name = "Koniec_Button";
             this.Koniec_Button.Size = new System.Drawing.Size(94, 23);
             this.Koniec_Button.TabIndex = 9;
@@ -221,7 +221,7 @@
             this.MainGridView.Location = new System.Drawing.Point(12, 102);
             this.MainGridView.Name = "MainGridView";
             this.MainGridView.ReadOnly = true;
-            this.MainGridView.Size = new System.Drawing.Size(1269, 652);
+            this.MainGridView.Size = new System.Drawing.Size(1228, 566);
             this.MainGridView.TabIndex = 10;
             this.MainGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wybierzWiersz);
             this.MainGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.wybierzWiersz);
@@ -363,7 +363,7 @@
             this.Magazyn_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.Magazyn_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.Magazyn_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Magazyn_Button.Location = new System.Drawing.Point(951, 72);
+            this.Magazyn_Button.Location = new System.Drawing.Point(910, 72);
             this.Magazyn_Button.Name = "Magazyn_Button";
             this.Magazyn_Button.Size = new System.Drawing.Size(162, 23);
             this.Magazyn_Button.TabIndex = 13;
@@ -378,7 +378,7 @@
             this.ZDnia_Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGray;
             this.ZDnia_Button.FlatAppearance.MouseOverBackColor = System.Drawing.SystemColors.ScrollBar;
             this.ZDnia_Button.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.ZDnia_Button.Location = new System.Drawing.Point(782, 72);
+            this.ZDnia_Button.Location = new System.Drawing.Point(741, 72);
             this.ZDnia_Button.Name = "ZDnia_Button";
             this.ZDnia_Button.Size = new System.Drawing.Size(163, 23);
             this.ZDnia_Button.TabIndex = 14;
@@ -390,7 +390,7 @@
             // 
             this.magazynCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.magazynCombo.FormattingEnabled = true;
-            this.magazynCombo.Location = new System.Drawing.Point(951, 43);
+            this.magazynCombo.Location = new System.Drawing.Point(910, 43);
             this.magazynCombo.Name = "magazynCombo";
             this.magazynCombo.Size = new System.Drawing.Size(162, 21);
             this.magazynCombo.TabIndex = 15;
@@ -399,7 +399,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1284, 802);
+            this.ClientSize = new System.Drawing.Size(1255, 718);
             this.Controls.Add(this.magazynCombo);
             this.Controls.Add(this.ZDnia_Button);
             this.Controls.Add(this.Magazyn_Button);

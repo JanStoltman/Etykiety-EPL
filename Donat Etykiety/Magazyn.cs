@@ -28,7 +28,7 @@ namespace Etykiety_Epl
                 nazwaMagazynu = (string)objects[1];
                 p3 = (string)objects[2];
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 p1 = "";
                 nazwaMagazynu = "";

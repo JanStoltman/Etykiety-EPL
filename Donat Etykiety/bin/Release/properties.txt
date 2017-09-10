@@ -1,0 +1,2 @@
+C:\Stream\Firma1\PCB\baza\Premium.fb
+/C copy Etykiety.prn \\tsclient\COM1
